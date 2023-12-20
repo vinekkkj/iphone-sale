@@ -23,6 +23,7 @@
 
     #title p {
         margin-left: 5rem;
+        margin-top: -200px;
     }
 
     .banner-mobile {
@@ -58,6 +59,10 @@
         margin-left: 10rem;
     }
 
+    #tittle p {
+        margin-top: -200px;
+    }
+    
     #main-content p {
         margin-top: -500px;
     }
