@@ -50,8 +50,7 @@
     .banner-mobile {
         opacity: 0;
         max-width: 1000px;
-        margin: 3rem auto; 
-        opacity: 1;
+        margin: 3rem auto;
         transition: .5s;
     }
 
