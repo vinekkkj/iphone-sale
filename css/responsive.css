@@ -1,0 +1,66 @@
+/* Smartphones */
+@media(max-width: 640px) {
+    #navbar li {
+        display: none;
+    }
+
+    #navbar #logo {
+        display: flex;
+    }
+
+    #bottom-header-links a {
+        display: none;
+    }
+
+    #bottom-header-links .btn {
+        display: flex;
+    }
+
+    #main-content {
+        padding: 2rem;
+        overflow: hidden;
+    }
+
+    #title p {
+        margin-left: 5rem;
+    }
+
+    .banner-mobile {
+        opacity: 1;
+        max-width: 1000px;
+        margin: 3rem auto; 
+        opacity: 1;
+        transition: .5s;
+    }
+    
+    .banner-maior {
+        opacity: 0;
+    }
+}
+
+/* Tablets
+@media(min-width: 1024px) {
+    .banner-maior {
+        margin-left: -100px;
+    }
+} */
+
+/* Telas Maiores */
+@media(min-width: 1008px) {
+    .banner-mobile {
+        opacity: 0;
+        max-width: 1000px;
+        margin: 3rem auto; 
+        opacity: 1;
+        transition: .5s;
+    }
+
+    .banner-maior {
+        opacity: 1;
+        margin-left: 10rem;
+    }
+
+    #main-content p {
+        margin-top: -500px;
+    }
+}
